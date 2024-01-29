@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: black;
+}
+
+.showWatch {
+
+    text-align: center;
+
+}
+
+.showWatch span {
+    font-size: 130px;
+    font-family: 'anton';
+    user-select: none;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.watchBtns button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.watchBtns button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.watchBtns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.watchContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lapContent {
+    width: 575px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resultClock {
+    background-color: white;
+    opacity: 0.25;
+    color: black;
+    font-size: 30px;
+    padding: 5px 20px;
+    font-weight: 600;
+    
+}
